@@ -1,0 +1,618 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url(./img/a219068bd22b6d5497017f2274fbdbb5_w.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  writing-mode: vertical-rl; 
+  position: relative;
+} 
+
+.header-title {
+  margin: 0;
+  color: white;
+  font-family: 游明朝;
+  margin-top: 70px;
+  margin-right: 70px;
+  margin-left: 70px;
+  font-size: 50px;
+}
+
+.header-sub {
+  color: white;
+  margin-top: 70px;
+  font-family: 游明朝;
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.header-sub:hover {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn1 {
+  position: absolute;
+  right: 85%;
+  top: 50%;
+  width: 70px;
+  height: 250px;
+  border: 8px double rgb(197, 186, 186);
+  background-color: rgb(37, 34, 34);
+  text-align: center;
+  align-items: center;
+}
+
+.btn1:hover {
+  transform: scale(1.03);
+}
+
+.btn1 a {
+  color: white;
+  position: relative;
+  right: 28%;
+  font-family: 游明朝;
+  font-size: 18px;
+}
+
+.main {
+  background-color: #E6E2D7;
+}
+
+.news {
+  text-align: right;
+  margin: 0 100px;
+  font-family: 游明朝;
+}
+
+.news1 {
+  writing-mode: vertical-rl; 
+  text-align: left;
+  display: inline-block;
+}
+
+.ruby {
+  margin-top: 175px;
+  margin-left: 0;
+}
+
+.news-title {
+  margin-top: 180px;
+  margin-right: 0;
+  font-size: 40px;
+}
+
+.news-tb {
+  margin-top: 270px;
+  margin-right: 70px;
+}
+
+.news-th {
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+
+.news-th2 {
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+
+.news-th1 {
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+
+.news-td {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.news-td3 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.news-td2 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.news-td1 {
+  border-left: 1px solid black;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.creates {
+  text-align: right;
+  margin: 0 100px;
+  font-family: 游明朝;
+}
+
+.create {
+  writing-mode: vertical-rl; 
+  text-align: left;
+  display: inline-block;
+  padding-top: 200px;
+  position: relative;
+}
+
+.create-title{
+  white-space: nowrap;
+  font-size: 40px;
+}
+
+.create-sub {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.create-img {
+  width: 640px;
+  height: 420px;
+  padding-top: 100px;
+  /* position: relative; */
+}
+
+.yellow {
+  background-color: #F9E906;
+  width: 350px;
+  height: 130px;
+  position: absolute;
+  top: 600px;
+  left: -2%;
+  opacity: 0.5;
+}
+
+.create-y {
+  writing-mode: horizontal-tb; 
+  position: absolute;
+  top: 40px;
+  left: 110px;
+  color: white;
+  opacity: 1;
+  text-align: center;
+  z-index: 1000;
+}
+
+.sciences {
+  text-align: left;
+  margin: 0 100px;
+  font-family: 游明朝;
+}
+
+.science {
+  writing-mode: vertical-lr; 
+  text-align: left;
+  display: inline-block;
+  padding-top: 200px;
+  position: relative;
+}
+
+.science-title{
+  white-space: nowrap;
+  font-size: 40px;
+}
+
+.science-sub {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.science-img {
+  width: 640px;
+  height: 420px;
+  padding-top: 100px;
+  /* position: relative; */
+}
+
+.red {
+  background-color: red;
+  width: 350px;
+  height: 130px;
+  position: absolute;
+  top: 600px;
+  right: -2%;
+  opacity: 0.5;
+}
+
+.create-r {
+  writing-mode: horizontal-tb; 
+  position: absolute;
+  top: 40px;
+  left: 110px;
+  color: white;
+  opacity: 1;
+  text-align: center;
+  z-index: 1000;
+}
+
+.gmap {
+  padding-top: 200px;
+}
+
+.bottom {
+  font-family: 游明朝;
+  color: white;
+  background-color: black;
+  writing-mode: vertical-rl; 
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  position: relative;
+}
+
+.footer-title {
+  writing-mode: vertical-rl; 
+  margin-top: 70px;
+  margin-right: 70px;
+  margin-left: 70px;
+  font-size: 50px;
+}
+
+.place {
+  writing-mode: vertical-rl; 
+  font-size: 14px;
+  margin-top: 70px;
+  margin-left: 0;
+}
+
+.tell {
+  writing-mode: vertical-rl; 
+  font-size: 14px;
+  margin-top: 70px;
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+.footer-sub {
+  writing-mode: vertical-rl; 
+  color: white;
+  margin-top: 70px;
+  font-family: 游明朝;
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.forms {
+  writing-mode: vertical-lr; 
+  color: white;
+  background-color: black;
+  margin-top: 70px;
+  position: absolute;
+  left: 10px;
+}
+
+.copy {
+  writing-mode: horizontal-tb; 
+  text-align: center;
+  margin: 0;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+  padding-bottom: 20px;
+}
+
+.footer-sub:hover {
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width: 900px) {
+  .news {
+    text-align: center;
+    margin: 0;
+    font-family: 游明朝;
+  }
+
+  .ruby {
+    margin-right: 0;
+  }
+
+  .news-title {
+    font-size: 30px;
+  }
+
+  .create-img {
+    width: 100%;
+  }
+
+  .science-img {
+    width: 100%;
+  }
+
+  .create-title {
+    margin-right: 0;
+  }
+
+  .science-title {
+    margin-left: 0;
+  }
+
+  .creates {
+    text-align: right;
+    margin: 0;
+    font-family: 游明朝;
+  }
+
+  .sciences {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .header-title {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .create-img {
+    width: 500px;
+    height: 330px;
+  }
+
+  .yellow {
+    width: 300px;
+    height: 130px;
+    top: 520px;
+  }
+
+  .create-y {
+    top: 35px;
+    left: 90px;
+  }
+
+  .create-r {
+    top: 35px;
+    left: 90px;
+  }
+
+  .science-img {
+    width: 500px;
+    height: 330px;
+  } 
+  
+  .red {
+    width: 300px;
+    height: 130px;
+    top: 520px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .news-tr1 {
+    display: none;
+  }
+
+  .news-th1 {
+    display: none;
+  }
+
+  .news-td1 {
+    display: none;
+  }
+
+  .news-td2 {
+    border-left: 1px solid black;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .footer-title {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .create-img {
+    width: 400px;
+    height: 260px;
+  }
+
+  .yellow {
+    width: 250px;
+    height: 100px;
+    top: 480px;
+  }
+
+  .create-y {
+    top: 25px;
+    left: 65px;
+  }
+
+  .science-img {
+    width: 400px;
+    height: 260px;
+  }
+
+  .red {
+    width: 250px;
+    height: 100px;
+    top: 480px;
+  }
+
+  .create-r {
+    top: 25px;
+    left: 65px;
+  }
+
+  .news-title {
+    margin-left: 0;
+  }
+
+  .news-tb {
+    margin-right: 20px;
+  }
+
+  .btn1 {
+    right: 75%;
+    top: 50%;
+  }
+  
+  .create-title{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .ruby {
+    display: none;
+  }
+
+  .create-sub {
+    display: none;
+  }
+
+  .science-title{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .science-sub {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .news-tr1 {
+    display: none;
+  }
+
+  .news-th1 {
+    display: none;
+  }
+
+  .news-td1 {
+    display: none;
+  }
+
+  .news-tr2 {
+    display: none;
+  }
+
+  .news-th2 {
+    display: none;
+  }
+
+  .news-td2 {
+    display: none;
+  }
+
+  .news-td3 {
+    border-left: 1px solid black;
+  }
+
+  .create-img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .yellow {
+    width: 200px;
+    height: 80px;
+    top: 450px;
+  }
+
+  .create-y {
+    top: 17px;
+    left: 40px;
+  }
+
+  .science-img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .red {
+    width: 200px;
+    height: 80px;
+    top: 450px;
+  }
+
+  .create-r {
+    top: 17px;
+    left: 40px;
+  }
+
+  .footer-title {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+  }
+
+  .footer-sub {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+
+  .tell {
+    margin-left: 20px;
+  }
+
+  .form {
+    margin-right: 0;
+  }
+} 
+
+@media screen and (max-width: 400px) {
+  .create-img {
+    width: 250px;
+    height: 166px;
+  }
+
+  .yellow {
+    width: 200px;
+    height: 80px;
+    top: 450px;
+  }
+
+  .create-y {
+    top: 17px;
+    left: 40px;
+  }
+
+  .science-img {
+    width: 250px;
+    height: 166px;
+  }
+
+  .red {
+    width: 200px;
+    height: 80px;
+    top: 450px;
+  }
+
+  .create-r {
+    top: 17px;
+    left: 40px;
+  }
+
+  .news-tb {
+    margin-right: 0;
+  }
+
+  .news-title {
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 80px;
+  }
+
+  .btn1 {
+    right: 70%;
+    top: 50%;
+  }
+}
