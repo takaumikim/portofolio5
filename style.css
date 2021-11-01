@@ -87,6 +87,7 @@ a {
   margin-top: 180px;
   margin-right: 0;
   font-size: 40px;
+  writing-mode: vertical-rl; 
 }
 
 .news-tb {
@@ -609,10 +610,11 @@ a {
     font-size: 30px;
     margin: 0;
     margin-top: 80px;
+    writing-mode: vertical-rl; 
   }
 
   .btn1 {
-    right: 70%;
+    right: 65%;
     top: 50%;
   }
 }
